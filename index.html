@@ -1,26 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <header>
     <head>
-        <meta charset="utf-8">
-        <title>BAMBA</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+      <meta charset="utf-8">
+      <meta charset=""/>
+      <meta name="viewport" content="width=, initial-scale=" />
+    
+      <title>GoMyCode</title>
+      <style>
+        h1 {
+          color: red;
+          font-family: roboto;
+        }
+
+        h2 {
+            font-family: roboto;
+        }
+
+        #port {
+            font-family: roboto;
+        }
+
+
+
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.B {
+    float: left;
+}
+
+.B a {
+    display: block;
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.B a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+form {
+    text-align: center;
+    color: black;
+}
+
+
+
+footer {
+    background-color: #111;
+}
+
+.la {
+    font-family: roboto;
+    text-align: center;
+    color: white;
+} 
+#ok {
+   text-align: center; 
+   color: white;
+}
+
+#i {
+    font-family: roboto;
+    color: white;
+}
+
+#l {
+    font-family: roboto;
+    color: white;
+}
+
+#f {
+    font-family: roboto;
+    color: white;
+}
+
+
+      </style>
+
     </head>
-    <Body>
-        <h1>
-            <b>Bamba.yaya</b>
-        </h1>
-        <form>
-            Search <input type = "text" name = "search" />
-        </form>
-        <nav>
+  </header>
+  <main>
+    <body>
+
+      <h1>
+        <b>
+          <i>
+            GoMyCode
+          </i>
+        </b>
+      </h1>
+
+
+
+      <section>
+        <div>
+          <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+              <li class="B"><a href="default.html">Home</a></li>
+              <li class="B"><a href="resume.asp">Resume</a></li>
+              <li class="B"><a href="work.asp">Work</a></li>
+              <li class="B"><a href="contact.asp">Contact</a></li>
+              <li class="B"><a href="about.asp">About</a></li>
+
+              
             </ul>
-        </nav>
+          </nav>
+        </div>
+      </section>
         <!--It's the menu at the top-->
         
 
@@ -31,8 +131,12 @@
             </h2>
         </b>
 
+        <form>
+            Search <input type="text" name="search" />
+        </form>
+
         <br>
-        my name is Yaya, I'm a GoMyCode learner, I'm studying web development
+        <p id="port">my name is Yaya, I'm a GoMyCode learner, I'm studying web development</p>
 
         <img src="image/AA.png" alt="AA"
 
@@ -90,19 +194,25 @@
 
         
     </Body>
+</main>
+</br>
+</br>
+</br>
     <footer>
-        <br/>
+    </br>
+    </br>
+    </br>
 
-        <br/>
-        <p>Contact us</p>
-        <p>Legal Notice</p>
-
-        <br/>
-        <p><i>GoMyCode</i></p>
-        <p>Revera 3 at the crossroads of the palm grove near the bank</p>
-        <br/>
-        <a href="https://web.facebook.com/gomycode.ci">FOLLOW US</a>
-
-
+        <ul class="la">
+        <i>GoMyCode</i> </br>
+        <p>Riviera Bounoumin, Rue 174, lot 589, islet 44, Ivory Coast, Abidjan</p>
+        </ul>
+    </br>
+    <p id="ok"><a href="https://web.facebook.com/gomycode.ci">FOLLOW US</a></p>
+    <i id="i">CONTACT</i> 
+</br>
+<p id="l"> +225 077 920 1737
+</p>
+<p id="f">hello@gomycode.com</p>
     </footer>
 </html>
